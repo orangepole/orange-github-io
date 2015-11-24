@@ -73,8 +73,11 @@ a {
 
 .project-name {
   font-family: "Kaushan Script","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration-color: aqua ;
   margin-top: 0;
-  margin-bottom: 0.1rem; }
+  margin-bottom: 0.1rem;
+  text-shadow: 2px 2px #d35400;
+}
 
 @media screen and (min-width: 64em) {
   .project-name {
@@ -89,6 +92,7 @@ a {
     font-size: 1.75rem; } }
 
 .project-tagline {
+  font-family: "Shadows Into Light","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 2rem;
   font-weight: normal;
   opacity: 0.7; }
@@ -113,7 +117,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #9b59b6; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
